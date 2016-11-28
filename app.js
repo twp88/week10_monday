@@ -5,7 +5,7 @@ var app = express()
 var wireDictionary = {
   "Get got": "to be killed",
   "Got got": "Was killed",
-  "Courtside": "to be in trial",
+  "Courtside": "to be on trial",
   "Tool up": "Get ready to fight",
   "Points on the package": "Percentage of profits from the package"
 }
@@ -33,11 +33,27 @@ app.get('/get/key=:word', DoTheSearch);
     response.send("The " + reply.status + " " + reply.word + " means " + reply.definition + "."  )
   }
 
+
+
+
+
+
+
+
+
+
+
 app.get('/all', getEverything);
 
   function getEverything(request, response) {
     response.send(wireDictionary)
   }
+
+
+
+
+
+
 
 
 app.get('/get/:word=:definition', AddAWord);

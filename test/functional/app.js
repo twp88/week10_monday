@@ -5,8 +5,6 @@ var assert = require('assert');
 var Browser = require('zombie');
 
 
-
-console.log(app)
 describe('app', function(){
   before(function() {
     this.server = http.createServer(app).listen(3000);
