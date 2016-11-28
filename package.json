@@ -1,0 +1,26 @@
+{
+  "name": "monday_server",
+  "version": "1.0.0",
+  "description": "A server that returns get requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twp88/week10_monday.git"
+  },
+  "keywords": [
+    "sever",
+    "monday"
+  ],
+  "author": "tomp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twp88/week10_monday/issues"
+  },
+  "homepage": "https://github.com/twp88/week10_monday#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
